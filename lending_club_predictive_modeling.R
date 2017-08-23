@@ -384,6 +384,8 @@ gb_predictions <- ifelse(gb_pred == "Charged Off", 1, 0)
 gb_roc <- roc(gb_labels, gb_predictions)
 gb_auc <- auc(gb_roc)
 
+
+
 ##################################################################################################
 #Compare the ability of the five different models to predict the outcomes of the test set
 ##################################################################################################
