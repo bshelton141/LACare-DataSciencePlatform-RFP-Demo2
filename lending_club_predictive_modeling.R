@@ -31,7 +31,7 @@ library(ggplot2)
 
 
 #set working directory
-wd <- "/Users/ericashelton/Documents/DataScience/practical_statistics/lending_data/lending-club-loan-data" #specify directory to download data
+wd <- "/Users/user1/Documents" #specify directory from which to download and load the data
 setwd(wd)
 
 set.seed(32541)
