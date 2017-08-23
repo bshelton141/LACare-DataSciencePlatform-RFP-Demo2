@@ -385,7 +385,7 @@ gb_roc <- roc(gb_labels, gb_predictions)
 gb_auc <- auc(gb_roc)
 
 ##################################################################################################
-#Compare the ability of the four different models to predict the outcomes of the test set
+#Compare the ability of the five different models to predict the outcomes of the test set
 ##################################################################################################
 
 results <- data.frame(cbind(rbind(knn_auc,
