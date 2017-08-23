@@ -286,7 +286,7 @@ M.a <- sparse.model.matrix(~ dti +
                              collections_12_mths_ex_med -1, data = rbind(train_imp, test_imp))
 
 
-#create spare matrix for categorical predictors
+#create sparse matrix for categorical predictors
 #################################################
 cats <- loans[loan_status %in% c("Charged Off", "Fully Paid"), c("purpose",
                                                                  "home_ownership",
