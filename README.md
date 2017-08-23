@@ -8,6 +8,7 @@ The goal of the script is to determine the model that is best at predicting whic
 - Data Pre-Processing
 - Filtering
 - Dimensionality Reduction
+- Data Visualization
 - Model Testing and Validation 
 
 
