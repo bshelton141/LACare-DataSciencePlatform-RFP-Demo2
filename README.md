@@ -5,6 +5,8 @@ The "lending_club_predictive_modeling.R" script is a fully reproducible example 
 
 The goal of the script is to determine the model that is best at predicting which loans are "Charged Off" or "Fully Paid" (using AUC as the evaluation metric). The goal of the demonstration is to assess the solution's ability to install, load, and run libraries that would be leveraged in an actual use-case situation. Specifically, this demonstration will allow L.A. Care to assess the solution on the following Data Science Platform criteria:
 - Import, Call, and Development of Open Source Predictive Models
+- System Processing Speed
+- Algorithmic Efficiency in One or Multi-Node Environment
 - Data Pre-Processing
 - Filtering
 - Dimensionality Reduction
