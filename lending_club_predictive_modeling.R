@@ -425,7 +425,7 @@ viz_comparison <- ggplot(results_viz, aes(x = model, y = value, fill = model)) +
   theme(axis.title = element_blank(),
         axis.text.y = element_blank(),
         axis.ticks = element_blank()) +
-  labs(title = "Predictive Model Comparions")
+  labs(title = "Predictive Model Comparisons")
 
 print(viz_comparison)
 print(round(results, 3))
